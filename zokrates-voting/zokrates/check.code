@@ -1,0 +1,18 @@
+echo 'import "hashes/sha256/512bitPacked.code" as sha256packed
+
+def main(private field hashA, private field hashB, private field hashC, private field age) -> (field):
+    secretHash = sha256packed([hashA, hashB, hashC, age])
+    secretHash[0] == 132551948299424900767097446886728537524
+    secretHash[1] == 282594174286264701063109465420572142304
+    field ageClass = 10
+    ageClass = if age >= 20 then 20 else ageClass fi
+    ageClass = if age >= 30 then 30 else ageClass fi
+    ageClass = if age >= 40 then 40 else ageClass fi
+    return ageClass' > hash.code
+
+./zokrates compile -i hash.code
+./zokrates setup
+./zokrates compute-witness -a 337 113569 1919 25
+./zokrates generate-proof
+./zokrates export-verifier
+grep '~out' witness

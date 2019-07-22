@@ -1,0 +1,12 @@
+echo 'import "hashes/sha256/512bitPacked.code" as sha256packed
+
+def main(private field hashA, private field hashB, private field hashC, private field age) -> (field[3]):
+    secretHash = sha256packed([hashA, hashB, hashC, age])
+    return [secretHash[0], secretHash[1], age]' > hash.code
+
+./zokrates compile -i hash.code
+./zokrates setup
+./zokrates compute-witness -a 337 113569 1919 554 25
+./zokrates generate-proof
+./zokrates export-verifier
+grep '~out' witness
