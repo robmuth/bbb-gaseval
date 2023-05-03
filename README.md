@@ -14,42 +14,42 @@ For calculating the estimated gas costs the truffle project can be migrated to G
 
    Replacing 'StringUtils'
    -----------------------
-   > transaction hash:    0x1dff129f947b33d31e571f045fa4f01c3c5f0567d91c456d82eb2ead736554af
+   > transaction hash:    0x2fdc7a84daa53d5d47c892f872f0a734c07939b8000bb69a2c8e3ef81446328d
    > Blocks: 0            Seconds: 0
-   > contract address:    0xEb20716beDC6C2f611E9591C3A17c8FC4D986068
+   > contract address:    0xb6151F63B84124F12F24884E2C006D57E031F473
    > block number:        3
-   > block timestamp:     1563785062
-   > account:             0xFFd929C7d765336277F20eFBfdD223A153424045
-   > balance:             99.98109926
-   > gas used:            641621
-   > gas price:           20 gwei
+   > block timestamp:     1683098564
+   > account:             0xd06c8bf20d21873027F99e99D51BEAeB27BF03e5
+   > balance:             99.9973931012102906
+   > gas used:            532637 (0x8209d)
+   > gas price:           3.177688086 gwei
    > value sent:          0 ETH
-   > total cost:          0.01283242 ETH
+   > total cost:          0.001692554249062782 ETH
 
 
    Replacing 'BBB_Usecase_Files_v1'
    --------------------------------
-   > transaction hash:    0x8104fbe4101d1f1ce202412514a25f2f8f80c493b7bb27b9c4abd02c301786fb
+   > transaction hash:    0x63b3f12593c1fb89bc9fdc7dc9202363dceb068347bd6658df5dcdd1d47d552e
    > Blocks: 0            Seconds: 0
-   > contract address:    0xb5176c317C2f285b283cFb9A050756c3e3710aC6
+   > contract address:    0x7fb04c8c5673a2B9aCd52B5aA0C5D3644549d6bc
    > block number:        4
-   > block timestamp:     1563785062
-   > account:             0xFFd929C7d765336277F20eFBfdD223A153424045
-   > balance:             99.93301332
-   > gas used:            2404297
-   > gas price:           20 gwei
+   > block timestamp:     1683098564
+   > account:             0xd06c8bf20d21873027F99e99D51BEAeB27BF03e5
+   > balance:             99.991299887927593562
+   > gas used:            1961502 (0x1dee1e)
+   > gas price:           3.106401769 gwei
    > value sent:          0 ETH
-   > total cost:          0.04808594 ETH
-
+   > total cost:          0.006093213282697038 ETH
 
    > Saving migration to chain.
    > Saving artifacts
    -------------------------------------
-   > Total cost:          0.06091836 ETH
-   
+   > Total cost:     0.00778576753175982 ETH
+
+
 3_add_file.js
 =============
-Estimated Gas: 214703
+Estimated Gas: 227727
 ```
 
 ## Voting Contracts
@@ -67,31 +67,29 @@ For calculating the estimated gas costs the truffle project can be migrated to G
 2_deploy_SimpleVoting.js
 ========================
 
-   Deploying 'SimpleVoting'
+   Replacing 'SimpleVoting'
    ------------------------
-   > transaction hash:    0xf5897981e0bfb300417543818bd92382631036fc1aecbb9ce5604f5188422c9b
+   > transaction hash:    0xbc1a4d1771278529bf65a54a3a308d85e59bd590624c423aeba95f385d14aca4
    > Blocks: 0            Seconds: 0
-   > contract address:    0x1A05eAf609a4C5241bD5CE9F07aA4979BBD5894F
-   > block number:        32
-   > block timestamp:     1563788884
-   > account:             0xFFd929C7d765336277F20eFBfdD223A153424045
-   > balance:             99.80449592
-   > gas used:            184577
-   > gas price:           20 gwei
+   > contract address:    0x4B3e0479fA324F27Ca3e704f4332bf9ebAaD39AB
+   > block number:        3
+   > block timestamp:     1683098599
+   > account:             0x4e13CeDDe647F1e310095F1739F10de062A56cc2
+   > balance:             99.998218485131224974
+   > gas used:            224646 (0x36d86)
+   > gas price:           3.178981289 gwei
    > value sent:          0 ETH
-   > total cost:          0.00369154 ETH
-
+   > total cost:          0.000714145430648694 ETH
 
    > Saving migration to chain.
    > Saving artifacts
    -------------------------------------
-   > Total cost:          0.00369154 ETH
+   > Total cost:     0.000714145430648694 ETH
 
 
 3_vote_SimpleVoting.js
 ======================
-Gas per vote: 42510.72
-
+Gas per vote: 46252.76
    > Saving migration to chain.
    -------------------------------------
    > Total cost:                   0 ETH
@@ -100,31 +98,29 @@ Gas per vote: 42510.72
 4_deployVotingWithSenderCheck.js
 ================================
 
-   Deploying 'VotingWithSenderCheck'
+   Replacing 'VotingWithSenderCheck'
    ---------------------------------
-   > transaction hash:    0x17d26757f47e19f024ca602f3b9bd9e3343cbdd79e2e04dd68d687ef8d8f5f9d
+   > transaction hash:    0x401ff382b1ef72d19cfa6f0276c86350eed54241891aaa30468878269986cf23
    > Blocks: 0            Seconds: 0
-   > contract address:    0x3DBDe27403AB0aA00e1f3F730f8B1C5cf556e79a
-   > block number:        35
-   > block timestamp:     1563788886
-   > account:             0xFFd929C7d765336277F20eFBfdD223A153424045
-   > balance:             99.79876386
-   > gas used:            232557
-   > gas price:           20 gwei
+   > contract address:    0xFe43930A62c183c2d06c94cD545d7d865eDC6B22
+   > block number:        6
+   > block timestamp:     1683098600
+   > account:             0x4e13CeDDe647F1e310095F1739F10de062A56cc2
+   > balance:             99.99726226830176005
+   > gas used:            263341 (0x404ad)
+   > gas price:           2.960334112 gwei
    > value sent:          0 ETH
-   > total cost:          0.00465114 ETH
-
+   > total cost:          0.000779577345388192 ETH
 
    > Saving migration to chain.
    > Saving artifacts
    -------------------------------------
-   > Total cost:          0.00465114 ETH
+   > Total cost:     0.000779577345388192 ETH
 
 
 5_vote_WithSenderCheck.js
 =========================
-Gas per vote: 63226.72
-
+Gas per vote: 68768.76
    > Saving migration to chain.
    -------------------------------------
    > Total cost:                   0 ETH
@@ -133,31 +129,29 @@ Gas per vote: 63226.72
 6_deployVotingWithTokenCheckBulk.js
 ===================================
 
-   Deploying 'VotingWithTokenCheckBulk'
+   Replacing 'VotingWithTokenCheckBulk'
    ------------------------------------
-   > transaction hash:    0xefe156b5dac76c2b12068312c67e1e95aa069bab5606d048353a0c02cd2aae44
+   > transaction hash:    0x0d4bc263234538bf2bce78bf8d6841039c76dda2b9e551cebef4751fe6bc21ab
    > Blocks: 0            Seconds: 0
-   > contract address:    0x5935Fd9D96020640438B5BF61f7a113C35EC3160
-   > block number:        38
-   > block timestamp:     1563788888
-   > account:             0xFFd929C7d765336277F20eFBfdD223A153424045
-   > balance:             99.78612318
-   > gas used:            577988
-   > gas price:           20 gwei
+   > contract address:    0x4A5Ef1B05E25a231C82178110850d01Ae851F860
+   > block number:        9
+   > block timestamp:     1683098601
+   > account:             0x4e13CeDDe647F1e310095F1739F10de062A56cc2
+   > balance:             99.99495684000991773
+   > gas used:            760577 (0xb9b01)
+   > gas price:           2.812604676 gwei
    > value sent:          0 ETH
-   > total cost:          0.01155976 ETH
-
+   > total cost:          0.002139202426658052 ETH
 
    > Saving migration to chain.
    > Saving artifacts
    -------------------------------------
-   > Total cost:          0.01155976 ETH
+   > Total cost:     0.002139202426658052 ETH
 
 
 7_vote_WithTokenCheckBulk.js
 ============================
-Gas per vote: 72734.78
-
+Gas per vote: 76520.18
    > Saving migration to chain.
    -------------------------------------
    > Total cost:                   0 ETH
@@ -166,31 +160,29 @@ Gas per vote: 72734.78
 8_deployVotingWithERC20Token.js
 ===============================
 
-   Deploying 'VotingWithERC20Token'
+   Replacing 'VotingWithERC20Token'
    --------------------------------
-   > transaction hash:    0xb449f723f44aaa2c73ffd1cdd6a583431b1a2674ce4d2212a4a230c918a6736c
+   > transaction hash:    0x7f896a2169dc20e168d98ec72cd1c17d13ada04d5dd09e41ae762da632495dd7
    > Blocks: 0            Seconds: 0
-   > contract address:    0x5918054136a98C9802AAfb51F183Be123966da26
-   > block number:        42
-   > block timestamp:     1563788892
-   > account:             0xFFd929C7d765336277F20eFBfdD223A153424045
-   > balance:             99.73063216
-   > gas used:            1545712
-   > gas price:           20 gwei
+   > contract address:    0xcA91D909dF0f93D776f76cB3d877496CD010d195
+   > block number:        13
+   > block timestamp:     1683098602
+   > account:             0x4e13CeDDe647F1e310095F1739F10de062A56cc2
+   > balance:             99.987933010255124741
+   > gas used:            1320023 (0x142457)
+   > gas price:           2.699317673 gwei
    > value sent:          0 ETH
-   > total cost:          0.03091424 ETH
-
+   > total cost:          0.003563161412666479 ETH
 
    > Saving migration to chain.
    > Saving artifacts
    -------------------------------------
-   > Total cost:          0.03091424 ETH
+   > Total cost:     0.003563161412666479 ETH
 
 
 9_vote_WithERC20Token.js
 ========================
-Gas per vote: 92626
-
+Gas per vote: 95485
    > Saving migration to chain.
    -------------------------------------
    > Total cost:                   0 ETH
@@ -201,40 +193,40 @@ Test cases for the different voting implementations are available and can be exe
 
 ```
   Contract: SimpleVoting
-    ✓ should have no votes (226ms)
-    ✓ should not vote for too high option (355ms)
-    ✓ should vote once (356ms)
-    ✓ should vote again, a second time (320ms)
-    ✓ should vote for another option (176ms)
+    ✔ should have no votes
+    ✔ should not vote for too high option (89ms)
+    ✔ should vote once
+    ✔ should vote again, a second time
+    ✔ should vote for another option
 
   Contract: VotingWithSenderCheck
-    ✓ should have no votes (320ms)
-    ✓ should not vote for too high option (331ms)
-    ✓ should vote once (336ms)
-    ✓ should fail when voting again, a second time (366ms)
-    ✓ should not vote for another option
+    ✔ should have no votes
+    ✔ should not vote for too high option
+    ✔ should vote once
+    ✔ should fail when voting again, a second time
+    ✔ should not vote for another option
 
   Contract: VotingWithTokenCheck
-    ✓ should have no votes (284ms)
-    ✓ should fail w/o token (134ms)
-    ✓ should vote once (922ms)
-    ✓ should fail when voting again, a second time (387ms)
-    ✓ should not vote for another option (100ms)
+    ✔ should have no votes
+    ✔ should fail w/o token (44ms)
+    ✔ should vote once
+    ✔ should fail when voting again, a second time
+    ✔ should not vote for another option
 
   Contract: VotingWithTokenCheckBulk
-    ✓ should have no votes (289ms)
-    ✓ should fail w/o token (97ms)
-    ✓ should vote once (919ms)
-    ✓ should fail when voting again, a second time (343ms)
-    ✓ should not vote for another option (41ms)
-    ✓ should not vote 10 times (5354ms)
+    ✔ should have no votes
+    ✔ should fail w/o token
+    ✔ should vote once
+    ✔ should fail when voting again, a second time
+    ✔ should not vote for another option
+    ✔ should not vote 10 times (213ms)
 
   Contract: VotingWithERC20Token
-    ✓ should have no votes (313ms)
-    ✓ should not vote for too high option (333ms)
-    ✓ should vote once (341ms)
-    ✓ should fail when voting again with too much weight (373ms)
-    ✓ should vote again, with more weight (331ms)
+    ✔ should have no votes
+    ✔ should not vote for too high option
+    ✔ should vote once
+    ✔ should fail when voting again with too much weight
+    ✔ should vote again, with more weight
 ```
 
 ## Voting with Zokrates
@@ -302,13 +294,13 @@ Gas: 1760551
 ## Results
 The following gas costs were evaluated for the BBBlockchain whitepaper:
 
-|order|type                         |deployCost|votingCost                                   |
-|-----|-----------------------------|----------|---------------------------------------------|
-|0    |vote-SimpleVoting            |0.191841  |0.04252772                                   |
-|1    |vote-WithSenderCheck         |0.240421  |0.06324972                                   |
-|2    |vote-WithTokenCheckBulk      |0.589482  |0.072776                                     |
-|3    |vote-WithERC20Token          |1.505117  |0.092656                                     |
-|4    |manual-zokrates              |2.187205  |1.760551                                     |
+|order|type                         |deployCost|votingCost             |
+|-----|-----------------------------|----------|-----------------------|
+|0    |vote-SimpleVoting            |224646    |46252                  |
+|1    |vote-WithSenderCheck         |263341    |68768                  |
+|2    |vote-WithTokenCheckBulk      |760577    |76520                  |
+|3    |vote-WithERC20Token          |1320023   |95485                  |
+|4    |manual-zokrates              |1697484   |1760551                |
 
 
 ## Licenses
